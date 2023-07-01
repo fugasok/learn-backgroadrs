@@ -1,7 +1,7 @@
 const Sociallink = ({ href, icon, itemClass }) => {
    return (
       <li>
-         <a href={href} target="_blank" className={itemClass}><i className={icon}></i></a>
+         <a href={href} target="_blank" rel='noreferrer' className={itemClass}><i className={icon}></i></a>
       </li>
    )
 }
